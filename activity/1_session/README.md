@@ -17,6 +17,7 @@ Se requiere un navegador con herramientas de desarrollador:
 * Abre la sección de *Sources* en las herramientas web, dirígete al fichero aboutme.js que creaste en la sección anterior y añade unos cuantos breakpoints en el script que has creado.
 * Añade un breakpoint más en `console.log(“Ej 1”)`.
 * ¿Qué se ejecuta antes, la llamada a `console.log()` o el contenido del fichero `aboutme.js`? ¿Por qué?
+
     * RESPUESTA: Primero se ejecuta el contenido de `aboutme.js`. El motivo es porque, de antes la llamada a `console.log()`, importamos el fichero `aboutme.js` y es evaluado en el momento del imposrt, así que se ejecuta en ese momento.
 
 ## Ejercicio 3
