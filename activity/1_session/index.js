@@ -88,7 +88,7 @@ function Formatter() {
   };
   
   // Llamar al método toLowerString
-  formatter.toLowerString("I’m Iván"); // Result: i’m lucas
+  formatter.toLowerString("I’m Iván"); // Result: i’m iván
   
 
   
